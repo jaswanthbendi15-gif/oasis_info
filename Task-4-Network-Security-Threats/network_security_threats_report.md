@@ -1,59 +1,118 @@
 Research Report on Common Network Security Threats
+
 Objective
+
 To study common network security threats, understand how they work, analyze their impact, and learn methods to prevent them.
 
 Introduction
-Network security protects computers, servers, and data from cyberattacks. Common threats can affect the security and availability of information.
+
+Network security is important for protecting computers, servers, and data from cyberattacks. Various threats can affect the confidentiality, integrity, and availability of information. This report discusses three common network security threats: Denial of Service (DoS), Man-in-the-Middle (MITM), and Spoofing attacks.
+
+---
 
 1. Denial of Service (DoS) Attack
+
 Description
-A DoS attack attempts to make a website or server unavailable by overwhelming it with a large number of requests.
+
+A Denial of Service (DoS) attack is an attack in which an attacker floods a server or network with excessive traffic, making it unavailable to legitimate users.
 
 How It Works
-The attacker sends many requests to a server.
-The server becomes overloaded.
-Legitimate users cannot access the service.
+
+1. The attacker sends a large number of requests to a server.
+2. The server becomes overloaded.
+3. Genuine users cannot access the service.
+
 Impact
-Website downtime
-Loss of productivity
-Financial losses
+
+- Website or server downtime
+- Loss of business operations
+- Reduced productivity
+- Financial losses
+
 Prevention
-Use firewalls
-Monitor network traffic
-Use DDoS protection services
+
+- Use firewalls and intrusion detection systems.
+- Monitor network traffic regularly.
+- Implement rate limiting.
+- Use DDoS protection services.
+
+---
+
 2. Man-in-the-Middle (MITM) Attack
+
 Description
-A MITM attack occurs when an attacker secretly intercepts communication between two parties.
+
+A Man-in-the-Middle attack occurs when an attacker secretly intercepts communication between two parties and may read or modify the transmitted data.
 
 How It Works
-The attacker positions themselves between sender and receiver.
-Information is intercepted or modified.
-Impact
-Data theft
-Identity theft
-Unauthorized access
-Prevention
-Use HTTPS websites
-Enable multi-factor authentication
-Avoid unsafe public Wi-Fi
-3. Spoofing Attack
-Description
-Spoofing is when an attacker pretends to be a trusted source.
 
-Types
-IP Spoofing
-Email Spoofing
-DNS Spoofing
+1. The attacker positions themselves between the sender and receiver.
+2. Data is intercepted during transmission.
+3. Sensitive information may be stolen or altered.
+
 Impact
-Fraud
-Data theft
-Unauthorized access
+
+- Data theft
+- Identity theft
+- Unauthorized access
+- Financial fraud
+
 Prevention
-Verify sender identity
-Use authentication methods
-Avoid suspicious links
+
+- Use HTTPS websites.
+- Enable multi-factor authentication.
+- Use VPN services.
+- Avoid untrusted public Wi-Fi networks.
+
+---
+
+3. Spoofing Attack
+
+Description
+
+Spoofing is a cyberattack in which an attacker disguises themselves as a trusted source to gain access to information or systems.
+
+Types of Spoofing
+
+- IP Spoofing
+- Email Spoofing
+- DNS Spoofing
+
+How It Works
+
+1. The attacker creates a fake identity.
+2. The victim believes the source is legitimate.
+3. Sensitive information may be disclosed.
+
+Impact
+
+- Unauthorized access
+- Data theft
+- Malware distribution
+- Financial losses
+
+Prevention
+
+- Verify sender identities.
+- Use authentication mechanisms.
+- Avoid suspicious emails and links.
+- Keep software updated.
+
+---
+
+Comparison of Threats
+
+Threat| Main Purpose| Impact
+DoS Attack| Disrupt services| Service downtime
+MITM Attack| Intercept communication| Data theft
+Spoofing Attack| Impersonate trusted sources| Fraud and unauthorized access
+
+---
+
 Result
-Successfully studied common network security threats and their prevention methods.
+
+Successfully studied common network security threats, their working mechanisms, impacts, and prevention techniques.
 
 Conclusion
-Understanding network security threats helps organizations and individuals protect their systems and data from cyberattacks.
+
+Network security threats such as DoS, MITM, and Spoofing attacks can cause serious damage to systems and data. Understanding these threats and implementing proper security measures helps protect networks from cyberattacks.
